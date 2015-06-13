@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F24475C783F781AD7584AFD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F1CEAEC19ED8D88B9D2784 /* libPods.a */; };
+		77263F711B256C1B003C9DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263F701B256C1B003C9DED /* main.m */; };
+		77263F741B256C1B003C9DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263F731B256C1B003C9DED /* AppDelegate.m */; };
+		77263F771B256C1B003C9DED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263F761B256C1B003C9DED /* ViewController.m */; };
+		77263F7A1B256C1B003C9DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77263F781B256C1B003C9DED /* Main.storyboard */; };
+		77263F7C1B256C1B003C9DED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77263F7B1B256C1B003C9DED /* Images.xcassets */; };
+		77263F7F1B256C1B003C9DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77263F7D1B256C1B003C9DED /* LaunchScreen.xib */; };
+		77263F8B1B256C1B003C9DED /* saimRestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263F8A1B256C1B003C9DED /* saimRestaurantTests.m */; };
+		77263FA71B257C7C003C9DED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263FA61B257C7C003C9DED /* MapKit.framework */; };
+		77263FA91B257C87003C9DED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263FA81B257C87003C9DED /* CoreLocation.framework */; };
+		77263FAB1B257C8D003C9DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263FAA1B257C8D003C9DED /* UIKit.framework */; };
+		77263FAD1B257C95003C9DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263FAC1B257C95003C9DED /* Foundation.framework */; };
+		77263FAF1B257CA0003C9DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263FAE1B257CA0003C9DED /* CoreGraphics.framework */; };
+		77263FB41B2582C1003C9DED /* CustomUiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263FB31B2582C1003C9DED /* CustomUiTableViewCell.m */; };
+		77263FBB1B258473003C9DED /* s4.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FB51B258473003C9DED /* s4.png */; };
+		77263FBC1B258473003C9DED /* s0.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FB61B258473003C9DED /* s0.png */; };
+		77263FBD1B258473003C9DED /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FB71B258473003C9DED /* s1.png */; };
+		77263FBE1B258473003C9DED /* s2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FB81B258473003C9DED /* s2.png */; };
+		77263FBF1B258473003C9DED /* s3.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FB91B258473003C9DED /* s3.png */; };
+		77263FC01B258473003C9DED /* s5.png in Resources */ = {isa = PBXBuildFile; fileRef = 77263FBA1B258473003C9DED /* s5.png */; };
+		77263FC41B258BC3003C9DED /* DetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263FC31B258BC3003C9DED /* DetialViewController.m */; };
+		77263FC71B258E85003C9DED /* MapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77263FC61B258E85003C9DED /* MapLocationViewController.m */; };
+		77263FCF1B25908E003C9DED /* dongyang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FC81B25908E003C9DED /* dongyang.jpg */; };
+		77263FD01B25908E003C9DED /* muguasala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FC91B25908E003C9DED /* muguasala.jpg */; };
+		77263FD11B25908E003C9DED /* nuomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FCA1B25908E003C9DED /* nuomi.jpg */; };
+		77263FD21B25908E003C9DED /* taishimian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FCB1B25908E003C9DED /* taishimian.jpg */; };
+		77263FD31B25908E003C9DED /* youjirice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FCC1B25908E003C9DED /* youjirice.jpg */; };
+		77263FD41B25908E003C9DED /* zhulourice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FCD1B25908E003C9DED /* zhulourice.jpg */; };
+		77263FD51B25908E003C9DED /* pla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FCE1B25908E003C9DED /* pla.jpg */; };
+		77263FD71B2590AF003C9DED /* attraction1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77263FD61B2590AF003C9DED /* attraction1.jpg */; };
+		F72C4F821B2AA1B000FD89BB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F72C4F811B2AA1B000FD89BB /* Podfile */; };
+		F72C4F851B2AD66400FD89BB /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C4F841B2AD66400FD89BB /* HCSStarRatingView.m */; };
+		F72C4F881B2AD68700FD89BB /* comment.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C4F871B2AD68700FD89BB /* comment.m */; };
+		F72C4F8B1B2ADC7100FD89BB /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C4F8A1B2ADC7100FD89BB /* Restaurant.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77263F851B256C1B003C9DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77263F631B256C1B003C9DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77263F6A1B256C1B003C9DED;
+			remoteInfo = saimRestaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147AB7A997D83D821389AB3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		32F1CEAEC19ED8D88B9D2784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3778CC6EF20D86D39BF33680 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		77263F6B1B256C1B003C9DED /* saimRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saimRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77263F6F1B256C1B003C9DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77263F701B256C1B003C9DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77263F721B256C1B003C9DED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77263F731B256C1B003C9DED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77263F751B256C1B003C9DED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77263F761B256C1B003C9DED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77263F791B256C1B003C9DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77263F7B1B256C1B003C9DED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77263F7E1B256C1B003C9DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77263F841B256C1B003C9DED /* saimRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saimRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77263F891B256C1B003C9DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77263F8A1B256C1B003C9DED /* saimRestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saimRestaurantTests.m; sourceTree = "<group>"; };
+		77263FA61B257C7C003C9DED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		77263FA81B257C87003C9DED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		77263FAA1B257C8D003C9DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77263FAC1B257C95003C9DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77263FAE1B257CA0003C9DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77263FB21B2582C1003C9DED /* CustomUiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUiTableViewCell.h; sourceTree = "<group>"; };
+		77263FB31B2582C1003C9DED /* CustomUiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUiTableViewCell.m; sourceTree = "<group>"; };
+		77263FB51B258473003C9DED /* s4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s4.png; sourceTree = "<group>"; };
+		77263FB61B258473003C9DED /* s0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s0.png; sourceTree = "<group>"; };
+		77263FB71B258473003C9DED /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
+		77263FB81B258473003C9DED /* s2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2.png; sourceTree = "<group>"; };
+		77263FB91B258473003C9DED /* s3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s3.png; sourceTree = "<group>"; };
+		77263FBA1B258473003C9DED /* s5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s5.png; sourceTree = "<group>"; };
+		77263FC21B258BC3003C9DED /* DetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialViewController.h; sourceTree = "<group>"; };
+		77263FC31B258BC3003C9DED /* DetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetialViewController.m; sourceTree = "<group>"; };
+		77263FC51B258E85003C9DED /* MapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationViewController.h; sourceTree = "<group>"; };
+		77263FC61B258E85003C9DED /* MapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationViewController.m; sourceTree = "<group>"; };
+		77263FC81B25908E003C9DED /* dongyang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dongyang.jpg; sourceTree = "<group>"; };
+		77263FC91B25908E003C9DED /* muguasala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muguasala.jpg; sourceTree = "<group>"; };
+		77263FCA1B25908E003C9DED /* nuomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nuomi.jpg; sourceTree = "<group>"; };
+		77263FCB1B25908E003C9DED /* taishimian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taishimian.jpg; sourceTree = "<group>"; };
+		77263FCC1B25908E003C9DED /* youjirice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = youjirice.jpg; sourceTree = "<group>"; };
+		77263FCD1B25908E003C9DED /* zhulourice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhulourice.jpg; sourceTree = "<group>"; };
+		77263FCE1B25908E003C9DED /* pla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pla.jpg; sourceTree = "<group>"; };
+		77263FD61B2590AF003C9DED /* attraction1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attraction1.jpg; sourceTree = "<group>"; };
+		F72C4F811B2AA1B000FD89BB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F72C4F831B2AD66400FD89BB /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		F72C4F841B2AD66400FD89BB /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		F72C4F861B2AD68700FD89BB /* comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comment.h; sourceTree = "<group>"; };
+		F72C4F871B2AD68700FD89BB /* comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comment.m; sourceTree = "<group>"; };
+		F72C4F891B2ADC7100FD89BB /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		F72C4F8A1B2ADC7100FD89BB /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77263F681B256C1B003C9DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77263FAF1B257CA0003C9DED /* CoreGraphics.framework in Frameworks */,
+				77263FAD1B257C95003C9DED /* Foundation.framework in Frameworks */,
+				77263FAB1B257C8D003C9DED /* UIKit.framework in Frameworks */,
+				77263FA91B257C87003C9DED /* CoreLocation.framework in Frameworks */,
+				77263FA71B257C7C003C9DED /* MapKit.framework in Frameworks */,
+				2F24475C783F781AD7584AFD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77263F811B256C1B003C9DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD9CCC6E8119888E31D91AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147AB7A997D83D821389AB3B /* Pods.debug.xcconfig */,
+				3778CC6EF20D86D39BF33680 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77263F621B256C1B003C9DED = {
+			isa = PBXGroup;
+			children = (
+				F72C4F811B2AA1B000FD89BB /* Podfile */,
+				77263FB11B257D03003C9DED /* Framwork */,
+				77263F6D1B256C1B003C9DED /* saimRestaurant */,
+				77263F871B256C1B003C9DED /* saimRestaurantTests */,
+				77263F6C1B256C1B003C9DED /* Products */,
+				77263FB01B257CFA003C9DED /* image */,
+				1BD9CCC6E8119888E31D91AE /* Pods */,
+				D7524A03789D7181893EE5F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77263F6C1B256C1B003C9DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77263F6B1B256C1B003C9DED /* saimRestaurant.app */,
+				77263F841B256C1B003C9DED /* saimRestaurantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77263F6D1B256C1B003C9DED /* saimRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				F72C4F861B2AD68700FD89BB /* comment.h */,
+				F72C4F871B2AD68700FD89BB /* comment.m */,
+				F72C4F831B2AD66400FD89BB /* HCSStarRatingView.h */,
+				F72C4F841B2AD66400FD89BB /* HCSStarRatingView.m */,
+				77263F721B256C1B003C9DED /* AppDelegate.h */,
+				77263F731B256C1B003C9DED /* AppDelegate.m */,
+				77263F751B256C1B003C9DED /* ViewController.h */,
+				77263F761B256C1B003C9DED /* ViewController.m */,
+				77263F781B256C1B003C9DED /* Main.storyboard */,
+				77263FC51B258E85003C9DED /* MapLocationViewController.h */,
+				77263FC61B258E85003C9DED /* MapLocationViewController.m */,
+				77263FC21B258BC3003C9DED /* DetialViewController.h */,
+				77263FC31B258BC3003C9DED /* DetialViewController.m */,
+				77263FB21B2582C1003C9DED /* CustomUiTableViewCell.h */,
+				77263FB31B2582C1003C9DED /* CustomUiTableViewCell.m */,
+				77263F7B1B256C1B003C9DED /* Images.xcassets */,
+				77263F7D1B256C1B003C9DED /* LaunchScreen.xib */,
+				77263F6E1B256C1B003C9DED /* Supporting Files */,
+				F72C4F891B2ADC7100FD89BB /* Restaurant.h */,
+				F72C4F8A1B2ADC7100FD89BB /* Restaurant.m */,
+			);
+			path = saimRestaurant;
+			sourceTree = "<group>";
+		};
+		77263F6E1B256C1B003C9DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77263F6F1B256C1B003C9DED /* Info.plist */,
+				77263F701B256C1B003C9DED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77263F871B256C1B003C9DED /* saimRestaurantTests */ = {
+			isa = PBXGroup;
+			children = (
+				77263F8A1B256C1B003C9DED /* saimRestaurantTests.m */,
+				77263F881B256C1B003C9DED /* Supporting Files */,
+			);
+			path = saimRestaurantTests;
+			sourceTree = "<group>";
+		};
+		77263F881B256C1B003C9DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77263F891B256C1B003C9DED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77263FB01B257CFA003C9DED /* image */ = {
+			isa = PBXGroup;
+			children = (
+				77263FC81B25908E003C9DED /* dongyang.jpg */,
+				77263FC91B25908E003C9DED /* muguasala.jpg */,
+				77263FCA1B25908E003C9DED /* nuomi.jpg */,
+				77263FCB1B25908E003C9DED /* taishimian.jpg */,
+				77263FCC1B25908E003C9DED /* youjirice.jpg */,
+				77263FCD1B25908E003C9DED /* zhulourice.jpg */,
+				77263FD61B2590AF003C9DED /* attraction1.jpg */,
+				77263FCE1B25908E003C9DED /* pla.jpg */,
+				77263FC11B258478003C9DED /* like */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		77263FB11B257D03003C9DED /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+				77263FAE1B257CA0003C9DED /* CoreGraphics.framework */,
+				77263FAC1B257C95003C9DED /* Foundation.framework */,
+				77263FAA1B257C8D003C9DED /* UIKit.framework */,
+				77263FA81B257C87003C9DED /* CoreLocation.framework */,
+				77263FA61B257C7C003C9DED /* MapKit.framework */,
+			);
+			name = Framwork;
+			sourceTree = "<group>";
+		};
+		77263FC11B258478003C9DED /* like */ = {
+			isa = PBXGroup;
+			children = (
+				77263FB51B258473003C9DED /* s4.png */,
+				77263FB61B258473003C9DED /* s0.png */,
+				77263FB71B258473003C9DED /* s1.png */,
+				77263FB81B258473003C9DED /* s2.png */,
+				77263FB91B258473003C9DED /* s3.png */,
+				77263FBA1B258473003C9DED /* s5.png */,
+			);
+			name = like;
+			sourceTree = "<group>";
+		};
+		D7524A03789D7181893EE5F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F1CEAEC19ED8D88B9D2784 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77263F6A1B256C1B003C9DED /* saimRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77263F8E1B256C1B003C9DED /* Build configuration list for PBXNativeTarget "saimRestaurant" */;
+			buildPhases = (
+				D1077E1F88B20FBCC76B2921 /* Check Pods Manifest.lock */,
+				77263F671B256C1B003C9DED /* Sources */,
+				77263F681B256C1B003C9DED /* Frameworks */,
+				77263F691B256C1B003C9DED /* Resources */,
+				2FD7255DE8C4CED0C81D1C01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = saimRestaurant;
+			productName = saimRestaurant;
+			productReference = 77263F6B1B256C1B003C9DED /* saimRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77263F831B256C1B003C9DED /* saimRestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77263F911B256C1B003C9DED /* Build configuration list for PBXNativeTarget "saimRestaurantTests" */;
+			buildPhases = (
+				77263F801B256C1B003C9DED /* Sources */,
+				77263F811B256C1B003C9DED /* Frameworks */,
+				77263F821B256C1B003C9DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77263F861B256C1B003C9DED /* PBXTargetDependency */,
+			);
+			name = saimRestaurantTests;
+			productName = saimRestaurantTests;
+			productReference = 77263F841B256C1B003C9DED /* saimRestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77263F631B256C1B003C9DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.siamu;
+				TargetAttributes = {
+					77263F6A1B256C1B003C9DED = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					77263F831B256C1B003C9DED = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 77263F6A1B256C1B003C9DED;
+					};
+				};
+			};
+			buildConfigurationList = 77263F661B256C1B003C9DED /* Build configuration list for PBXProject "saimRestaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77263F621B256C1B003C9DED;
+			productRefGroup = 77263F6C1B256C1B003C9DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77263F6A1B256C1B003C9DED /* saimRestaurant */,
+				77263F831B256C1B003C9DED /* saimRestaurantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77263F691B256C1B003C9DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77263FD11B25908E003C9DED /* nuomi.jpg in Resources */,
+				77263FD71B2590AF003C9DED /* attraction1.jpg in Resources */,
+				77263FCF1B25908E003C9DED /* dongyang.jpg in Resources */,
+				77263FBB1B258473003C9DED /* s4.png in Resources */,
+				77263FD51B25908E003C9DED /* pla.jpg in Resources */,
+				77263FBF1B258473003C9DED /* s3.png in Resources */,
+				F72C4F821B2AA1B000FD89BB /* Podfile in Resources */,
+				77263FC01B258473003C9DED /* s5.png in Resources */,
+				77263FD41B25908E003C9DED /* zhulourice.jpg in Resources */,
+				77263F7A1B256C1B003C9DED /* Main.storyboard in Resources */,
+				77263F7F1B256C1B003C9DED /* LaunchScreen.xib in Resources */,
+				77263FBD1B258473003C9DED /* s1.png in Resources */,
+				77263F7C1B256C1B003C9DED /* Images.xcassets in Resources */,
+				77263FD31B25908E003C9DED /* youjirice.jpg in Resources */,
+				77263FD01B25908E003C9DED /* muguasala.jpg in Resources */,
+				77263FBC1B258473003C9DED /* s0.png in Resources */,
+				77263FD21B25908E003C9DED /* taishimian.jpg in Resources */,
+				77263FBE1B258473003C9DED /* s2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77263F821B256C1B003C9DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD7255DE8C4CED0C81D1C01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1077E1F88B20FBCC76B2921 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77263F671B256C1B003C9DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77263F771B256C1B003C9DED /* ViewController.m in Sources */,
+				77263F741B256C1B003C9DED /* AppDelegate.m in Sources */,
+				77263FB41B2582C1003C9DED /* CustomUiTableViewCell.m in Sources */,
+				77263FC41B258BC3003C9DED /* DetialViewController.m in Sources */,
+				F72C4F8B1B2ADC7100FD89BB /* Restaurant.m in Sources */,
+				77263FC71B258E85003C9DED /* MapLocationViewController.m in Sources */,
+				F72C4F851B2AD66400FD89BB /* HCSStarRatingView.m in Sources */,
+				77263F711B256C1B003C9DED /* main.m in Sources */,
+				F72C4F881B2AD68700FD89BB /* comment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77263F801B256C1B003C9DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77263F8B1B256C1B003C9DED /* saimRestaurantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77263F861B256C1B003C9DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77263F6A1B256C1B003C9DED /* saimRestaurant */;
+			targetProxy = 77263F851B256C1B003C9DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77263F781B256C1B003C9DED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77263F791B256C1B003C9DED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77263F7D1B256C1B003C9DED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77263F7E1B256C1B003C9DED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77263F8C1B256C1B003C9DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77263F8D1B256C1B003C9DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77263F8F1B256C1B003C9DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147AB7A997D83D821389AB3B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = saimRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77263F901B256C1B003C9DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3778CC6EF20D86D39BF33680 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = saimRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77263F921B256C1B003C9DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = saimRestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saimRestaurant.app/saimRestaurant";
+			};
+			name = Debug;
+		};
+		77263F931B256C1B003C9DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = saimRestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saimRestaurant.app/saimRestaurant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77263F661B256C1B003C9DED /* Build configuration list for PBXProject "saimRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77263F8C1B256C1B003C9DED /* Debug */,
+				77263F8D1B256C1B003C9DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77263F8E1B256C1B003C9DED /* Build configuration list for PBXNativeTarget "saimRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77263F8F1B256C1B003C9DED /* Debug */,
+				77263F901B256C1B003C9DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77263F911B256C1B003C9DED /* Build configuration list for PBXNativeTarget "saimRestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77263F921B256C1B003C9DED /* Debug */,
+				77263F931B256C1B003C9DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77263F631B256C1B003C9DED /* Project object */;
+}
